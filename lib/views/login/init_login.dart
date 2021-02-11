@@ -1,6 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:test_furniture_app/globalVariables/colorTheme.dart';
+import 'package:test_furniture_app/views/shop/shop_item.dart';
 
 class InitLogin extends StatelessWidget {
 
@@ -104,9 +105,10 @@ class InitLogin extends StatelessWidget {
                       child: RaisedButton(
                         elevation: 0,
                         highlightElevation: 0,
-                        color: Colors.black38,
+                        color: AppTheme.subTitleTextColor,
                           onPressed: () {
-
+                            //Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => ShopItem()));
+                            Navigator.push(context, MaterialPageRoute(builder: (context) => ShopItem()));
                           },
                         child: Container(
                           margin: EdgeInsets.symmetric(vertical: MediaQuery.of(context).size.height / 65),

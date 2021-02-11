@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'login/init_login.dart';
+import 'package:test_furniture_app/views/login/init_login.dart';
 
 void main() {
   runApp(MyApp());

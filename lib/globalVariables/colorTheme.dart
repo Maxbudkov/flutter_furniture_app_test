@@ -12,6 +12,8 @@ class AppTheme {
   static const Color basicTextColor = Color(0xFF4C4C4C);
   static const Color subTitleTextColor = Color(0xFF575556);
   static const Color lightTextColor = Color(0xFFB8B4B5);
+  static const Color ultraLightTextColor = Color(0xFFE0E0E0);
+  static const Color pinColor = Color(0x44FFFFFF);
   static const Color linkColor = Color(0xFF0082FF);
 
   static const Color primaryColor = Color(0xFF2196f3);

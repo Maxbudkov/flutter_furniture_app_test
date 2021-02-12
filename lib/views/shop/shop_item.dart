@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:test_furniture_app/globalVariables/colorTheme.dart';
@@ -18,7 +17,6 @@ class ShopItem extends StatelessWidget {
             stops: [0.0, 0.5]
           )
         ),
-
         child: Container(
           child: Column(
             children: [
